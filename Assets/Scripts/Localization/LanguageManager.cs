@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class LanguageManager : MonoBehaviour
 {
@@ -16,14 +17,21 @@ public class LanguageManager : MonoBehaviour
     public Font englishFont;
     public Font khmerFont;
 
+    public Dropdown languageDropdown; 
+
     Dictionary<string, string> translations;
 
     void Awake()
     {
         instance = this;
 
-        int saved = PlayerPrefs.GetInt("language", 0);
-        currentLanguage = (Language)saved;
+        // Always start the game in English
+        currentLanguage = Language.English;
+
+        if (languageDropdown != null)
+        {
+            languageDropdown.value = 0;
+        }
 
         LoadLanguage();
     }
@@ -50,12 +58,24 @@ public class LanguageManager : MonoBehaviour
 
         TextAsset jsonFile = Resources.Load<TextAsset>("Localization/" + fileName);
 
-        translations = JsonUtility.FromJson<LocalizationData>(jsonFile.text).ToDictionary();
+        if (jsonFile != null)
+        {
+            translations = JsonUtility.FromJson<LocalizationData>(jsonFile.text).ToDictionary();
+        }
+        else
+        {
+            Debug.LogError("Localization file not found: " + fileName);
+        }
     }
 
     public string GetText(string key)
     {
-        return translations.ContainsKey(key) ? translations[key] : key;
+        if (translations != null && translations.ContainsKey(key))
+        {
+            return translations[key];
+        }
+
+        return key;
     }
 
     public Font GetFont()
