@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 23218
+  controlID: 23538
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -98,7 +98,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23219
+  controlID: 23539
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23242
+  controlID: 23540
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 100
     height: 608
-  m_MinSize: {x: 401, y: 626}
-  m_MaxSize: {x: 601, y: 1226}
+  m_MinSize: {x: 400, y: 600}
+  m_MaxSize: {x: 600, y: 1200}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 569
     height: 608
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
     m_Target: 0.50760376
     speed: 2
@@ -988,7 +988,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 23187
+  controlID: 23485
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1009,8 +1009,8 @@ MonoBehaviour:
     y: 0
     width: 401
     height: 542.5
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -1058,9 +1058,9 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -11464
+      - m_Data: -15164
       m_LastClickedID:
-        m_Data: -11464
+        m_Data: -15164
       m_ExpandedIDs:
       - m_Data: -11540
       - m_Data: -11520
@@ -1174,7 +1174,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/UI/Fonts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/UI/Fonts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game
   m_LockTracker:
@@ -1193,12 +1193,14 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 32.006226}
     m_SelectedIDs:
-    - m_Data: 50284
+    - m_Data: 51294
     m_LastClickedID:
-      m_Data: 50284
+      m_Data: 51294
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 47586
+    - m_Data: 49638
+    - m_Data: 51278
     - m_Data: 51282
     - m_Data: 51566
     - m_Data: 1000000000
@@ -1267,9 +1269,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -11464
-    m_LastClickedInstanceID: -11464
-    m_HadKeyboardFocusLastEvent: 0
+    - m_Data: -15164
+    m_LastClickedInstanceID: -15164
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 51366
     m_RenameOverlay:
@@ -1320,8 +1322,8 @@ MonoBehaviour:
     y: 0
     width: 658
     height: 1028
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
