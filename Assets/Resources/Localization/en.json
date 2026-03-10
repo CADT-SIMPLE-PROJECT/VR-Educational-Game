@@ -1,6 +1,10 @@
 {
   "items": [
     { "key": "start", "value": "Start" },
-    { "key": "language", "value": "English" }
+    { "key": "language", "value": "English" },
+    { "key": "setting", "value": "Settings" },
+    { "key": "langSelect", "value": "Language Selection" },
+    { "key": "volume", "value": "Volume Control" },
+    { "key": "back", "value": "Back" }
   ]
 }
