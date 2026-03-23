@@ -5,6 +5,7 @@
     { "key": "setting", "value": "Settings" },
     { "key": "langSelect", "value": "Language Selection" },
     { "key": "volume", "value": "Volume Control" },
-    { "key": "back", "value": "Back" }
+    { "key": "back", "value": "Back" },
+    { "key": "skip", "value": "Skip"}
   ]
 }
