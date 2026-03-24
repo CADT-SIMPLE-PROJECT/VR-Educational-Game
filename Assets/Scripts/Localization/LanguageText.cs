@@ -8,14 +8,20 @@ public class LanguageText : MonoBehaviour
     public int khmerFontSize = 48;
     private Text text;
 
-    void Start()
+    void Awake()
     {
         text = GetComponent<Text>();
+    }
+
+    void OnEnable()
+    {
         UpdateText();
     }
 
     public void UpdateText()
     {
+        if (text == null || LanguageManager.instance == null)
+            return;
         text.text = LanguageManager.instance.GetText(key);
         text.font = LanguageManager.instance.GetFont();
 

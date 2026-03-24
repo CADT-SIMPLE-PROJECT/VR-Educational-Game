@@ -44,7 +44,7 @@ public class LanguageManager : MonoBehaviour
 
         LoadLanguage();
 
-        LanguageText[] texts = Resources.FindObjectsOfTypeAll<LanguageText>();
+        LanguageText[] texts = FindObjectsOfType<LanguageText>(true);
 
         foreach (LanguageText t in texts)
         {
