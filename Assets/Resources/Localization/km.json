@@ -6,6 +6,16 @@
     { "key": "langSelect", "value": "kareRCIserIsPasa" },
     { "key": "volume", "value": "karRKb;RKgkRmitsemøg" },
     { "key": "back", "value": "RtLb;eRkay" },
-    { "key": "skip", "value": "rMlg"}
+    { "key": "skip", "value": "rMlg"},
+    { "key": "next", "value": "bnÞab;"},
+    { "key": "openText1", "value": "Gs;ry³eBlCaeRcInCMnan;mkehIy ERscmáar)anciBa©wmbI)ac;EfrkSaRbCaCneyIg nig)ancgRkgCavb,Fm’rbs;eyIg."},
+    { "key": "openText2", "value": "EtKYr[sþay sisSPaKeRcInminEdl)andwgfa kñúgvalERsBit²manGVIxøHenaHeT."},
+    { "key": "openText3", "value": "enAeRkamKum<ERs sm,ÚreTAedayCIvit nigstVtUc²rs;enABaseBjhñwg."},
+    { "key": "openText4", "value": "stVxøH CYy[RsÚvduHlUtlas;)anl¥."},
+    { "key": "openText5", "value": "EtxøHeTot KWCasRtÚvbMpøajRsÚv."},
+    { "key": "openText6", "value": "ÉxøHeTotvij KWminGacxVH)aneLIy sRmab;tulüPaBFmµCati."},
+    { "key": "openText7", "value": "ebskkmµrbs;Gñk KWcuHeTAemIl[sÁal;valERs[)anc,as;."},
+    { "key": "openText8", "value": "Binitü[c,as; EsVgyl;[dwg nigeronsmÁal;[sÁal;."},
+    { "key": "close", "value": "biT"}
   ]
 }
