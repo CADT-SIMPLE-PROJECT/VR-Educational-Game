@@ -1173,7 +1173,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: XR Building Blocks
-      index: 11
+      index: 12
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1288,11 +1288,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.2767989, y: -0.59800196, z: 0.23124914, w: 0.71575695}
     speed: 2
     m_Value: {x: -0, y: 0, z: -0, w: -1}
   m_Size:
-    m_Target: 0.21836436
+    m_Target: 1.1145518
     speed: 2
     m_Value: 0.21836436
   m_Ortho:
@@ -1714,6 +1714,8 @@ MonoBehaviour:
     - m_Data: 56210
     - m_Data: 56212
     - m_Data: 56214
+    - m_Data: 85032
+    - m_Data: 85034
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1753,6 +1755,8 @@ MonoBehaviour:
     - m_Data: 56210
     - m_Data: 56212
     - m_Data: 56214
+    - m_Data: 85032
+    - m_Data: 85034
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
