@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8216
+  controlID: 12440
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 8217
+  controlID: 12441
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8218
+  controlID: 12442
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Models/Animals
+    - Assets/Art/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/Models/Animals
+  - Assets/Art/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/nita/Desktop/SchoolProject/CapstoneII/project/VR-Educational-Game
   m_LockTracker:
@@ -1032,9 +1032,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 23.999329}
     m_SelectedIDs:
-    - m_Data: 87702
+    - m_Data: 87074
     m_LastClickedID:
-      m_Data: 87702
+      m_Data: 87074
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 85032
