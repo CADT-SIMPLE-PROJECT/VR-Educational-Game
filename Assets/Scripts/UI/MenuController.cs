@@ -106,11 +106,18 @@ namespace UI
             UpdateOpeningText();
         }
 
-        public void OpenAnimalDetailPanel()
+        public AnimalInfoPanel animalPanel;
+
+        public void OpenAnimalDetailPanel(string animalKey)
         {
             if (animalDetailPanel != null)
             {
                 animalDetailPanel.SetActive(true);
+            }
+
+            if (animalPanel != null)
+            {
+                animalPanel.ShowAnimal(animalKey);
             }
         }
 

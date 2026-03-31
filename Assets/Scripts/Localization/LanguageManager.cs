@@ -10,7 +10,7 @@ public class LanguageManager : MonoBehaviour
     {
         English,
         Khmer
-    }
+    } 
 
     public Language currentLanguage;
 
@@ -49,6 +49,11 @@ public class LanguageManager : MonoBehaviour
         foreach (LanguageText t in texts)
         {
             t.UpdateText();
+        }
+
+        foreach (AnimalInfoPanel panel in FindObjectsOfType<AnimalInfoPanel>(true))
+        {
+            panel.RefreshLanguage();
         }
     }
 
