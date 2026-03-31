@@ -1,0 +1,5 @@
+/Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game/.utmp/RelWithDebInfo/1a6q3ic6/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game/.utmp/RelWithDebInfo/1a6q3ic6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game/.utmp/RelWithDebInfo/1a6q3ic6/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game/.utmp/RelWithDebInfo/1a6q3ic6/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/chumchanlinna/CADT/Capstone/Capstone-II/VR-Educational-Game/.utmp/RelWithDebInfo/1a6q3ic6/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
