@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eeeee62dfa3d040a0b726f857d15943b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9186414019121040334}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eeeee62dfa3d040a0b726f857d15943b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4341143476227314628}
   m_SourcePrefab: {fileID: 100100000, guid: eeeee62dfa3d040a0b726f857d15943b, type: 3}
 --- !u!1 &4778220232765028653 stripped
 GameObject:
@@ -86,3 +89,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2655097, y: 2.203652, z: 3.7455292}
   m_Center: {x: 0, y: 1.1179531, z: -0.17542523}
+--- !u!114 &-4341143476227314628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4778220232765028653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adedaff411c12417c8f9d500131dfc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SnailMovement
+  moveSpeed: 0.01
+  moveDistance: 0.5
