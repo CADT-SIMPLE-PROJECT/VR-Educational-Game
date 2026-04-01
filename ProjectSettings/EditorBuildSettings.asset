@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RiceFieldScene1.unity
     guid: 721786b64d8672449b2b950725215956
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/testvr.unity
     guid: 8b0d6950faaa84a76a57d7b4c3c6b0ad
   m_configObjects:
